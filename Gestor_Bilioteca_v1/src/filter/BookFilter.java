@@ -1,4 +1,7 @@
 package filter;
 
-public class BookFilter {
+import domain.Book;
+
+public interface BookFilter {
+    boolean apply(Book book);
 }
